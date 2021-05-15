@@ -21,19 +21,7 @@ function initMap() {
 
          
      //Yellow Water picnic site
-    { lat: 54.13470490297628, lng: -6.15013341089825 }
-
-
-
-
-
-
-
-
-
-
-
-
+    { lat: 54.13470490297628, lng: -6.15013341089825 },
 
 
     //Kilbroney car park
