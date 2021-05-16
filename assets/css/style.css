@@ -3,6 +3,17 @@
 body {
   /*min-height: 75rem;*/
   padding-top: 4.5rem;
+    
+}
+@font-face {
+  font-family: james-stroker-font;
+  src: url(../JamesStroker-jEZMO.ttf);
+}
+
+h1{
+    font-family: james-stroker-font;
+    font-size: 70px;
+    color: #ffffff;
 }
 
 .hike-details {
@@ -18,6 +29,15 @@ body {
 
 
 /* Homepage layout */
+
+.hero-image {
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    background-position: center;
+}
+
+
 .card {
     height: 100%;
 }
