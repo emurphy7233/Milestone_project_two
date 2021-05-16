@@ -16,3 +16,13 @@ body {
 #map {
   height: 100%;
 }
+
+
+/* Homepage layout */
+.card-header {
+    height: 225px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}

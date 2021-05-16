@@ -8,7 +8,16 @@ function initMap() {
     //Trail Points
 
     //Trail 1
-
+    new google.maps.Marker({
+        position: { lat: 54.165107000804916, lng: -6.126748393885729 },
+        map,
+        title: "Start",
+    });
+    new google.maps.Marker({
+        position: { lat: 54.09738956647193, lng: -6.187492750549725 },
+        map,
+        title: "End",
+    });
     //Leitrim Lodge Car Park
     const trailPointsLeitrim = [
         { lat: 54.165107000804916, lng: -6.126748393885729},
@@ -50,8 +59,20 @@ function initMap() {
         path: trailPointsLeitrim,
         geodesic: true,
         strokeColor: "#FF0000",
-        strokeOpacity: 1.0,
+        strokeOpacity: 0,
         strokeWeight: 2,
+        icons: [{
+            icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            fillColor: '#C83939',
+            fillOpacity: 1,
+            scale: 2,
+            strokeColor: '#C83939',
+            strokeOpacity: 1,
+            },
+            offset: '0',
+            repeat: '10px'
+        }]
     });
     flightPath.setMap(map);
 }
