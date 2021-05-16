@@ -22,7 +22,7 @@
 
             //Windy Gap Turning point
             { lat: 54.32946975028495, lng: -6.030431698445043}
-            //haven't put in the way back.... question**
+        
         ];
     }
     //End of Hike 2

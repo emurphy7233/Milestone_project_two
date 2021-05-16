@@ -18,10 +18,19 @@ body {
 
 
 /* Homepage layout */
+.card {
+    height: 100%;
+}
+
 .card-header {
     height: 225px;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
 }
