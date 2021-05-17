@@ -1,7 +1,6 @@
 
 /* Show it is fixed to the top */
 body {
-  /*min-height: 75rem;*/
   padding-top: 4.5rem;
     
 }
@@ -9,12 +8,17 @@ body {
   font-family: james-stroker-font;
   src: url(../JamesStroker-jEZMO.ttf);
 }
-
 h1{
     font-family: james-stroker-font;
     font-size: 70px;
     color: #ffffff;
 }
+
+h2{
+   font-family: james-stroker-font;
+   color: hsl (313,96%,25%); 
+}
+
 
 .hike-details {
     height: 100%;
