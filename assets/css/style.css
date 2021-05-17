@@ -20,10 +20,29 @@ h2{
    text-align: center;
    font-size: 45px;
 }
+
+h3{
+    font-family: james-stroker-font;
+   color: hsl (313,96%,25%); 
+   text-align: left;
+   font-size: 25px;
+}
+
 a.navbar-brand {
     margin-right: 5rem;
 }
 
+/* Hero- Mourne info */
+
+@font-face {
+  font-family: genera-font;
+  src: url(../Colombia-Rp0DV.ttf);
+}
+
+p .lead{
+    font-family: genera-font;
+    color: #d4d1d1;
+}
 
 .hike-details {
     height: 100%;
