@@ -1,13 +1,13 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 14,
+        zoom: 14.5,
         center: { lat: 54.32542702113202, lng: -6.034864139448719},
         mapTypeId: "terrain",
     });
   
-    //Trail Points
-
-    //Trail 1
+    //Hike 3
+    
+        //The Windy Gap
     new google.maps.Marker({
         position:  {lat: 54.320410011321904, lng: -6.042633172959346},
         map,
@@ -18,7 +18,7 @@ function initMap() {
         map,
         title: "End",
     });
-    //Leitrim Lodge Car Park
+    //The Windy Gap
     const trailPointsWindyGap = [
             {lat: 54.320410011321904, lng: -6.042633172959346},
 
@@ -35,13 +35,13 @@ function initMap() {
                 { lat: 54.32863630231954, lng: -6.030620414020271},
             
 
-            //Windy Gap Turning point
-            { lat: 54.32946975028495, lng: -6.030431698445043}
-        
+                //Windy Gap Turning point
+                { lat: 54.32946975028495, lng: -6.030431698445043}
+    //End of Granite Trail 
+
         ];
-    
-   
-    //Don't touch for now
+
+    //End of Hike 3
     const flightPath = new google.maps.Polyline({
         path: trailPointsWindyGap,
         geodesic: true,

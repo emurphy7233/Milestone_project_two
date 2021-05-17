@@ -1,49 +1,65 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
-        center: { lat: 54.32542702113202, lng: -6.034864139448719},
+        center: {lat: 54.16984332591103, lng: -5.876253303291823},
         mapTypeId: "terrain",
     });
   
     //Trail Points
 
-    //Trail 1
+    //Trail 5
     new google.maps.Marker({
-        position:  {lat: 54.320410011321904, lng: -6.042633172959346},
+        position:  {lat: 54.17459640918802, lng: -5.873778334102578},
         map,
         title: "Start",
     });
     new google.maps.Marker({
-        position: { lat: 54.32946975028495, lng: -6.030431698445043},
+
+        position: {lat: 54.16342930640427, lng: -5.874132738237468},
         map,
         title: "End",
     });
-    //Leitrim Lodge Car Park
-    const trailPointsWindyGap = [
-            {lat: 54.320410011321904, lng: -6.042633172959346},
-
-            //Road to Trail point
-           { lat: 54.321495990567485, lng: -6.043551352911494},
-
-                //in between points
-                { lat: 54.32184627428714, lng: -6.039157629575559},
-                { lat: 54.32265899637141, lng: -6.037764134841469},
-                { lat: 54.32455528546058, lng: -6.035906141862679},
-                { lat: 54.32542702113202, lng: -6.034864139448719},
-                { lat: 54.32762495374743, lng: -6.034621917665711},
-                { lat: 54.32706559387809, lng: -6.0310757910169785},
-                { lat: 54.32863630231954, lng: -6.030620414020271},
-            
-
-            //Windy Gap Turning point
-            { lat: 54.32946975028495, lng: -6.030431698445043}
-        
-        ];
     
-   
-    //Don't touch for now
+//Hike 5
+    
+        //Start of Bloody Bridge Coastal Path 
+        const trailPointsBloodyBridgeCoastalPath = [
+
+           //Starting point - Bloody Bridge Car Park
+            {lat: 54.17459640918802, lng: -5.873778334102578},
+
+            {lat: 54.17455005949901, lng: -5.873466697811195},
+            {lat: 54.173740052069974, lng: -5.873547263543038},
+            
+            {lat: 54.17341615173105, lng: -5.873582964328021},
+            {lat: 54.17314031202899, lng: -5.873957822502704},
+            {lat: 54.172975225266825, lng: -5.874011373670516},
+
+            //After the River
+            {lat: 54.172885367623415, lng: -5.8740934854857425},
+            {lat: 54.17204156649861, lng: -5.873882706290635},
+            {lat: 54.17188710402129, lng: -5.873807312426952},
+            {lat: 54.17123614865489, lng: -5.873631393405426},
+            {lat: 54.17083159497175, lng: -5.873235575621094},
+            {lat: 54.16992317361751, lng: -5.872864889117498},
+            {lat: 54.1692427640007, lng: -5.872626141869671},
+            {lat: 54.16819822151506, lng: -5.872475354129774},
+            {lat: 54.16648696339484, lng: -5.872694201102586},
+            {lat: 54.1658486291197, lng: -5.872996568763561},
+            {lat: 54.16491524864458, lng: -5.873436376300238},
+            
+            //End point - Same as beginning
+            {lat: 54.16342930640427, lng: -5.874132738237468},
+           
+            //End of Bloody Bridge Coastal Path 
+
+        ];
+
+    //End of Hike 5
+    
+
     const flightPath = new google.maps.Polyline({
-        path: trailPointsWindyGap,
+        path: trailPointsBloodyBridgeCoastalPath,
         geodesic: true,
         strokeColor: "#FF0000",
         strokeOpacity: 0,

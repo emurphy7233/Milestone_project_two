@@ -53,8 +53,6 @@ function initMap() {
         { lat: 54.09738956647193, lng: -6.187492750549725 }
     ];
     
-   
-    //Don't touch for now
     const flightPath = new google.maps.Polyline({
         path: trailPointsLeitrim,
         geodesic: true,
