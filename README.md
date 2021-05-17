@@ -42,9 +42,9 @@ H1 Titles
 ------
 ## Wireframes
 ----
-*  !Home Wireframe &  Mobile Wireframe ![View](assets/images/wireframes/Home page.png)
-* Hike Details Wireframe - ![View](assets/images/wireframes/Hike- pages.png)
-* Site Map - ![View](assets/images/wireframes/Site Map.png)
+Home Wireframe &  Mobile Wireframe ![View](assets/images/wireframes/Home-page.png)
+Hike Details Wireframe - ![View](assets/images/wireframes/Hike-pages.png)
+Site Map - ![View](assets/images/wireframes/Site-Map.png)
 ---- 
 ## Features
 ----
